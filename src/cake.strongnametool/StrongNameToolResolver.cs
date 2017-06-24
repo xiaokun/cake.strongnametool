@@ -72,7 +72,7 @@ namespace Cake.StrongNameTool
             // Get the path to program files.
             var programFilesPath = _environment.GetSpecialPath(SpecialPath.ProgramFilesX86);
 
-            var possibleVersions = new[] { "v10.0A", "v8.1A", "v8.1", "v8.0", "v7.0A" };
+            var possibleVersions = new[] { "v10.0A", "v8.1A", "v8.1", "v8.0A", "v8.0", "v7.0A" };
 
             // Get a list of the files we should check.
             var files = new List<FilePath>();
