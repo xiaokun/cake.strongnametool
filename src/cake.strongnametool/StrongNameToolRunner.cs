@@ -101,7 +101,7 @@ namespace Cake.StrongNameTool
                 }
 
                 // Resign
-                builder.Append("-Rca");
+                builder.Append("-Ra");
                 // Target Assembly to resign.
                 builder.AppendQuoted(assemblyPath.MakeAbsolute(_environment).FullPath);
                 // The container name
